@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tvHelloSynergy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Hello World!"
+        android:textColor="#E91E63"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnKotlinSynthetic"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:background="#A430B8"
+        android:layout_marginTop="10dp"
+        android:text="Kotlin synthetic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnFindById"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:background="#FFC107"
+        android:layout_marginTop="10dp"
+        android:text="find By Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnDataBinding"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:background="#F44336"
+        android:layout_marginTop="10dp"
+        android:text="Data Binding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnViewBinding"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:background="#009688"
+        android:layout_marginTop="10dp"
+        android:text="View Binding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
