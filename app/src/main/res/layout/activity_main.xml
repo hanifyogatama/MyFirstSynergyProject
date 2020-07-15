@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:padding="16dp">
-
-    <TextView
-        android:gravity="center"
-        android:id="@+id/tvHelloSynergy"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="Hello World!"
-        android:textColor="#E91E63"
-        android:textSize="40sp"
-        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/btnKotlinSynthetic"
@@ -31,6 +22,18 @@
         android:layout_height="wrap_content"
         />
 
+    <TextView
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:id="@+id/tvHelloSynergy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Hello World!"
+        android:textColor="#E91E63"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
     <Button
         android:id="@+id/btnFindById"
         android:textColor="#fff"
@@ -42,16 +45,62 @@
         android:layout_height="wrap_content"
         />
 
-    <Button
-        android:id="@+id/btnDataBinding"
-        android:textColor="#fff"
-        android:textSize="20sp"
-        android:background="#F44336"
-        android:layout_marginTop="10dp"
-        android:text="Data Binding"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etKetik"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ketik jakarta "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="apa nih ?"
+                android:textColor="#E91E63"/>
+
+            <Button
+                android:id="@+id/btnDataBinding"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#F44336"
+                android:text="Data Binding"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/imgBinar"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/binar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"/>
+
+    </LinearLayout>
+
+
 
     <Button
         android:id="@+id/btnViewBinding"
@@ -65,3 +114,4 @@
         />
 
 </LinearLayout>
+</layout>
