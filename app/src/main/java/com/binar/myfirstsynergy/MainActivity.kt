@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         // setContentView(R.layout.activity_main)
 
+//  untuk menjalankan View Binding , Data Binding di comment dulu yak, begitu juga sebaliknya
+        
         // VIEW BINDING --------------------------------------------------------
 
 //        val binding =ActivityMainBinding.inflate(layoutInflater)
