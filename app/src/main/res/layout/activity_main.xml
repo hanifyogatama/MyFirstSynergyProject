@@ -16,7 +16,7 @@
         android:textColor="#fff"
         android:textSize="20sp"
         android:background="#A430B8"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:text="Kotlin synthetic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="Hello World!"
+        android:text="Jakarta Keras!"
         android:textColor="#E91E63"
         android:textSize="40sp"
         android:textStyle="bold|italic" />
@@ -48,7 +48,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:orientation="horizontal">
@@ -85,10 +85,7 @@
                 android:text="Data Binding"
                 android:textColor="#fff"
                 android:textSize="15sp" />
-
         </LinearLayout>
-
-
 
         <ImageView
             android:id="@+id/imgBinar"
@@ -100,18 +97,17 @@
 
     </LinearLayout>
 
-
-
     <Button
         android:id="@+id/btnViewBinding"
-        android:textColor="#fff"
-        android:textSize="20sp"
-        android:background="#009688"
-        android:layout_marginTop="10dp"
-        android:text="View Binding"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:layout_marginTop="40dp"
+        android:background="#009688"
+        android:text="View Binding"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
 
 </LinearLayout>
 </layout>
