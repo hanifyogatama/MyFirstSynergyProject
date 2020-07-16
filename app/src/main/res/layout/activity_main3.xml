@@ -92,9 +92,6 @@
 
     </LinearLayout>
 
-
-
-
     <ProgressBar
         android:paddingHorizontal="30dp"
         android:layout_marginTop="20dp"
@@ -102,8 +99,8 @@
         android:layout_height="wrap_content"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:max="100"
-        android:outlineAmbientShadowColor="@color/colorAccent"
-        />
+        android:outlineAmbientShadowColor="@color/colorAccent" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -111,14 +108,28 @@
         android:text="0%"/>
 
     <ImageButton
-        android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
         android:layout_width="235dp"
         android:layout_height="40dp"
         android:elevation="4dp"
         android:scaleType="center"
-        android:src="@drawable/hireme"
+        android:src="@drawable/hireme" />
 
-        />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="20"
+        style="@style/Widget.AppCompat.SeekBar"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.5"
+        android:layout_gravity="center"/>
+
+
 
 </LinearLayout>
