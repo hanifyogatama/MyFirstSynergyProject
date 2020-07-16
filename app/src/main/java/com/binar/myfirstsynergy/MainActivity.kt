@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
 
 // DATA BINDING ----------------------------------------------------------------
-        lateinit var binding : ActivityMainBinding
+        var binding : ActivityMainBinding
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.btnDataBinding.setOnClickListener{
             val nama = binding.etKetik.text.toString()
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 //        }
 
 
-//        FIND VIEW BY ID -----------------------------------------------
+//      FIND VIEW BY ID -----------------------------------------------
         var outputFindViewId: TextView? = null
         var myButton: Button ?= null
 
