@@ -49,7 +49,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Web designer"/>
+            android:text="Web designer" />
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -115,21 +115,37 @@
         android:scaleType="center"
         android:src="@drawable/hireme" />
 
-    <SeekBar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:max="100"
-        android:progress="20"
-        style="@style/Widget.AppCompat.SeekBar"/>
+<!--    <SeekBar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:max="100"-->
+<!--        android:progress="20"-->
+<!--        style="@style/Widget.AppCompat.SeekBar"/>-->
 
-    <RatingBar
+<!--    <RatingBar-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:numStars="5"-->
+<!--        android:rating="0"-->
+<!--        android:stepSize="0.5"-->
+<!--        android:layout_gravity="center"-->
+<!--        />-->
+
+<!--<Switch-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:checked="true"-->
+<!--    android:text="Sound"-->
+<!--    android:textSize="16dp"/>-->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numStars="5"
-        android:rating="0"
-        android:stepSize="0.5"
-        android:layout_gravity="center"/>
-
-
+        android:layout_gravity="bottom|end"
+         />
 
 </LinearLayout>
